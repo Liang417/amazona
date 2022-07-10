@@ -16,4 +16,31 @@ header a {
   color: #ffffff;
   font-weight: bold;
   text-decoration: none;
+  font-size: 20px;
+}
+
+main h1 {
+  margin: auto;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  border: 1px #404040 solid;
+  margin-left: 2rem;
+}
+
+.product img {
+  width: 100%;
+  max-width: 280px;
+}
+
+.product_info {
+  padding: 1rem;
 }
