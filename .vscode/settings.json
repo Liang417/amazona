@@ -1,4 +1,5 @@
 {
   "eslint.validate": [],
-  "markdown.experimental.validate.enabled": false
+  "markdown.experimental.validate.enabled": false,
+  "cSpell.ignoreWords": ["signin"]
 }
