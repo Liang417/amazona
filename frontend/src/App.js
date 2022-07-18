@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
+import SigninScreen from './screens/SigninScreen';
 import { LinkContainer } from 'react-router-bootstrap';
 import { Badge, Nav, Navbar, Container } from 'react-bootstrap';
 import { useContext } from 'react';
@@ -38,6 +39,7 @@ function App() {
               <Route path="/" element={<HomeScreen />} />
               <Route path="/product/:slug" element={<ProductScreen />} />
               <Route path="/cart" element={<CartScreen />} />
+              <Route path="/signin" element={<SigninScreen />} />
             </Routes>
           </Container>
         </main>
