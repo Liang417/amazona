@@ -1,5 +1,6 @@
 {
   "eslint.validate": [],
   "markdown.experimental.validate.enabled": false,
-  "cSpell.ignoreWords": ["signin", "amazona", "signout", "toastify"]
+  "cSpell.ignoreWords": ["signin", "amazona", "signout", "toastify"],
+  "cSpell.words": ["placeorder"]
 }
